@@ -4,7 +4,6 @@ dataFile = open('aquastat.csv')
 csvFile = csv.reader(dataFile ,delimiter='\t')
 
 # Part 2 - Seperate the data by country and year
-csvData = []
 years = set()
 variables = set()
 countryData = {}

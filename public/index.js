@@ -27,13 +27,11 @@ submitButton.addEventListener('click', event => {
 			let donarCountry = firstInfo[0];
 			let year = firstInfo[1];
 			dataToOutput += 
-			`
-			<div class="card">
+			`<div class="card">
 				<p>${donarCountry} ${year}</p>
 				<p>${firstInfo[2]}: ${firstInfo[3]} 10^9 m^3/year</p>
 				<p>${secondInfo[2]}: ${secondInfo[3]} 10^9 m^3/year</p>
-			</div>
-			`;
+			</div>`;
 		}
 	}
 	resultsContainer.innerHTML = dataToOutput;
