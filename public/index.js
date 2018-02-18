@@ -38,7 +38,7 @@ submitButton.addEventListener('click', event => {
 	resultsContainer.innerHTML = dataToOutput;
 });
 
-Papa.parse("http://localhost:5000/data.csv", {
+Papa.parse(window.location + 'data.csv', {
 	download: true,
 	complete(results){
 		let data = results.data;
@@ -50,7 +50,7 @@ Papa.parse("http://localhost:5000/data.csv", {
 });
 
 
-fetch('http://localhost:5000/distances.json')
+fetch(window.location + 'distances.json')
 .then(res => res.json())
 .then(distanceInfo => {
 	mappings = distanceInfo.mappings
