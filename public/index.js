@@ -16,6 +16,7 @@ submitButton.addEventListener('click', event => {
 	
 	//Check for countries in a reseasonable distance with above average water produced to suggest contacting
 	let countryId = mappings[country];
+	if(countryId === undefined) return;
 	let dataToOutput = '';
 	for(let i = 0; i < distances[countryId].length; i++){
 		if(i == countryId) continue;
