@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>HackAgainstHunger Water Distribution</title>
+  <script src="jquery-3.3.1.min.js"></script>
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <script src="bootstrap.min.js"></script>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="form-group">
+    <label for="country">Enter your country</label>
+    <input id="country" type="text" name="country" class="form-control">
+    <button id="submit" class="btn" disabled>Search for countries with water resources near you</button>
+  </div>
+  <div id="results"></div>
+  <script src="papaparse.min.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>

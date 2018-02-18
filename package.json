@@ -1,0 +1,17 @@
+{
+  "name": "hackagainsthunger",
+  "version": "0.0.1",
+  "description": "HackAgainstHunger - Water Distribution System",
+  "scripts": {
+    "serve": "serve public"
+  },
+  "author": "Jonathan Herbert",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "papaparse": "^4.3.7"
+  },
+  "devDependencies": {
+    "serve": "^6.4.9"
+  }
+}

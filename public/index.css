@@ -1,0 +1,12 @@
+label[for=country] {
+  font-size: 30px;
+}
+
+#submit {
+  float: right;
+}
+
+#results {
+  clear: both;
+  padding-top: 5px;
+}
